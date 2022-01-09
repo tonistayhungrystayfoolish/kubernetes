@@ -1,5 +1,5 @@
 name: sample-quarkus-on-kubernetes
-image: okteto/gradle
+image: account-service/gradle
 command: ["gradle", "quarkusDev" ]
 workdir: /app
 forward:
