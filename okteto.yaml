@@ -1,0 +1,6 @@
+name: sample-quarkus-on-kubernetes
+image: okteto/gradle
+command: ["gradle", "quarkusDev" ]
+workdir: /app
+forward:
+  - 8080:8080
